@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HR ChatBot App </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "48a91657-80f8-469f-a681-cc56db5a70f9", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "1c096598-b456-41dc-b340-3966e6c3ffa3", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  
+    
+    
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h1 style="color:white ; padding-left: 10px;"><i class="fa fa-comments"></i> HR ChatBot</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#top">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About">About Us</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="Feedback.html" >Feedback</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#developer" >Developers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+
+    <!-------------------banner section------------------>
+    
+    <section id="banner" style="padding-top: 0px;background-color: #667aff;">
+    <div class="container">
+     <div class="row">
+     <div class="col-md-6">
+         <p class = "Promo-title"><font size="10" face = "arial" color = "black"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX_poHP8qZxE66bv4y60m4XVv2ORmgxTuelw&usqp=CAU" class ="img-fluid" style="width: 100px; height: 100%;"> HR CHATBOT</font></p>
+         <p class="promo-title">HR chatbot equipped with natural language understanding automatically answers your employee queries, helps employees raise tickets in real-time, and makes HR workflows super smooth.</p>
+         <p style="padding-left: 150px;">Simple | Secure | Social</p>
+        </div>
+     <div class="clo-md-6 text-center">
+       <img src="https://miro.medium.com/max/2400/1*bwgqWWqHbmE-KIZBgP41bA.png" class ="img-fluid" style="width: 550px; height: 90%;">
+
+     </div>
+     </div>   
+    </div>
+
+    
+
+      </section>
+      <!-----------------about us---------------->
+      
+      <section id="About">
+            <div class="container text-center">
+              <h1 class="title"> FIND A SERVICE SUITABLE FOR YOU</h1>
+              <div class="row" style="padding-top: 30px;"> 
+            <div class="col-md-3">
+                <h2 style="font-style: italic;">User Friendly</h2>
+                <a href="index.html"><img src="https://cdn3.iconfinder.com/data/icons/miscellaneous-6-two-color-line/128/friendly_partner_partnership_together-512.png" style="width: 200px; height: 200px;"/></a>
+                <p>software interface that is easy to use,it is not difficult to learn or understand</p>
+                <p>Simple|Clean|intitive|Reliable</p>
+            </div>
+            <div class="col-md-3">
+                <h2  style="font-style: italic;">Live Virtual Chatrooms</h2>
+                <a href="home.html"><img src="https://cdn4.iconfinder.com/data/icons/business-consultant-color/64/networking-teamwork-relationship-people-social-community-512.png" style="width: 200px; height: 200px;"/></a>
+                <p>Engage and learn more with these live and highly-interactive Chatrooms alongside your peers</p>
+            </div>
+            <div class="col-md-3">
+                <h2  style="font-style: italic;">Applied Resources</h2>
+                <a href="resource.html"><img src="https://as1.ftcdn.net/jpg/02/36/88/48/500_F_236884869_RlZpDD66GG3c5WvhsPrd2TtL54Fhpf26.jpg" style="width: 200px; height: 200px;"/></a>
+                <p>Availability of resouces for your conserned courses,Real-world projects relevent to your course</p>
+            </div>
+            <div class="col-md-3">
+                <h2  style="font-style: italic;">Service</h2>
+                <a href="#footer"><img src="https://www.auxilo.com/images/home/Reach-icon.svg" style="width: 200px; height: 200px;"/></a>
+                <p>24/7 service availability</p>
+                <p>feel free to contact us anytime</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!---------------testinomials----------------->
+      <section id="testimonials" style="padding-top: 40px;">
+        <div class="container">
+          <h1 class="title text-center">WHAT CUSTOMERS SAY </h1>
+          <div class="row">
+            <div class="col-md-6 testimonials">
+              <p>This App is overwhelmingly great. it's so much faster and more versatile than ever.This app is completely userfriendly, the availability of details related to courses is really great. Now i'm addicted to this app.</p>
+              <p><b>Sai Krishna</b><br>221710308022@gitam.in</br></p>
+
+              </div>
+              <div class="col-md-6 testimonials">
+                <p>The great way to communicate with teammates through messaging.Very helpful for jobs recruiments and really liked the facility of resources, we can find wide range of resources of your courses.</p>
+                <p><b>Arun</b><br>221710308058@gitam.in</br></p>
+                </div>
+        </div>
+
+      </section>
+     <!-------------developer section--------------->
+     <section id="developer" style="padding-top: 50px;">
+        <div class="container">
+            <h1 class="title text-center">DEVELOPER DETAILS</h1>
+            <div class="row">
+              <div class="col-md-6 testimonials">
+                <p><b>AnjiReddy</b><br> Founder of HR ChatBot</br></p>
+                <p>Email: <a href="mailto: 221710308031@gitam.in">221710308031@gitam.in</a></p>
+                <p>Phone: *****</p>
+                </div>
+                <div class="col-md-6 testimonials">
+                  <p><b>My Team</b><br>Founder of HR ChatBot</br></p>
+                  <p>Email: <a href="mailto: 221710308053@gitam.in">221710308053@gitam.in</a></p>
+                  <p>Phone: *****</p>
+                  </div>
+          </div>
+        </div>
+     </section>
+     <!---Social-media--->
+          <section id="social-media"></section>
+         <div class="container text-center">
+         <h1 class="title">FOLLOW US ON SOCIAL MEDIA</h1>
+        <p style="padding-top: 80px;"><a href="https://github.com/karnhrsha" style="text-decoration: none; color: black;"> Github </a>|<a href="https://www.facebook.com/saikaran.reddy.1" style="text-decoration: none; color: black;"> Facebook</a> | Instagram | Twitter | <a href="https://www.linkedin.com/in/sai-karan-nani-ab69281a9/" style="color: black;text-decoration: none;" >LinkedIn</a></p>
+       </div>
+
+     </section>
+     <!---footer section--->
+     <section id="footer" style="background-color: #667aff;">
+       
+       <div class="container">
+         <div class="row">
+           <div class="col-md-4 fotter-box">
+            <p>Experience the best socialmedia app</p>
+            <h1 style="color:white ; padding-left: 10px;"><i class="fa fa-comments"></i> HR ChatBot</h1>
+            <p style="padding-left: 70px;">Simple | Secure | Social</p>
+           </div>
+           <div class="col-md-4 footer-box">
+             <p><b>CONTACT US</b></p>
+             <p><i class="fa fa-map-marker"></i>HR ChatBot Office,Hyderabad</p>
+             <p><i class="fa fa-phone"></i>+10738378717</p>
+             <p><i class="fa fa-envelope"></i>info@HRchatBot.in</p>
+           </div>
+           <div class="col-md-4 footer-box"> 
+            <p>About</p>
+            <p>Terms</p>
+            <p>Privacy Policy</p>
+            <p>Disclaimer</p>
+            <p>Careers</p>
+          </div>          
+         </div>
+         <hr>
+         <p class="copyright">website is designed by Anjireddy & My Team</p>
+       </div>
+
+     </section>
+     <script src="js/smooth-scroll.js"></script>
+     <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+	</script>
+
+    
+	<link rel="stylesheet" href="css/style2.css">
+</body> 
+</html>
